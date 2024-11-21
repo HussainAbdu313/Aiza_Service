@@ -19,27 +19,21 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: const Drawer(
-        width: 250,
-        backgroundColor: Colors.white70,
-      ),
-      backgroundColor: Colors.grey,
-      appBar: AppBar(
-        title: const Text(
-          'Interior Designs',
-          style: TextStyle(
-            color: Colors.black,
-            fontSize: 25,
-            fontWeight: FontWeight.bold,
-          ),
-        ),
-        backgroundColor: Colors.blueGrey,
-        elevation: 0,
-      ),
+      backgroundColor: Colors.black,
       body: ListView(
         children: [
+          const Text(
+            'INTERIOR DESIGNS',
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 40,
+              fontWeight: FontWeight.bold,
+              fontStyle: FontStyle.italic,
+            ),
+            textAlign: TextAlign.center,
+          ),
           const SizedBox(
-            height: 10,
+            height: 40,
           ),
           CarouselSlider(
             items: [
@@ -130,6 +124,7 @@ class _HomeScreenState extends State<HomeScreen> {
           const Text(
             'Services',
             style: TextStyle(
+              color: Colors.white,
               fontSize: 35,
               fontWeight: FontWeight.bold,
               fontStyle: FontStyle.italic,
@@ -161,7 +156,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         fit: BoxFit.cover),
                     borderRadius: BorderRadius.circular(20),
                     border: Border.all(
-                      color: Colors.black,
+                      color: Colors.white,
                       width: 6.0,
                     ),
                   ),
@@ -197,7 +192,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         fit: BoxFit.cover),
                     borderRadius: BorderRadius.circular(20),
                     border: Border.all(
-                      color: Colors.black,
+                      color: Colors.white,
                       width: 6.0,
                     ),
                   ),
@@ -233,7 +228,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         fit: BoxFit.cover),
                     borderRadius: BorderRadius.circular(20),
                     border: Border.all(
-                      color: Colors.black,
+                      color: Colors.white,
                       width: 6.0,
                     ),
                   ),
@@ -269,7 +264,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         fit: BoxFit.cover),
                     borderRadius: BorderRadius.circular(20),
                     border: Border.all(
-                      color: Colors.black,
+                      color: Colors.white,
                       width: 6.0,
                     ),
                   ),
@@ -305,7 +300,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         fit: BoxFit.cover),
                     borderRadius: BorderRadius.circular(20),
                     border: Border.all(
-                      color: Colors.black,
+                      color: Colors.white,
                       width: 6.0,
                     ),
                   ),
@@ -341,7 +336,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         fit: BoxFit.cover),
                     borderRadius: BorderRadius.circular(20),
                     border: Border.all(
-                      color: Colors.black,
+                      color: Colors.white,
                       width: 6.0,
                     ),
                   ),
@@ -377,7 +372,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         fit: BoxFit.cover),
                     borderRadius: BorderRadius.circular(20),
                     border: Border.all(
-                      color: Colors.black,
+                      color: Colors.white,
                       width: 6.0,
                     ),
                   ),

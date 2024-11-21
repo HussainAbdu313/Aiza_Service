@@ -1,5 +1,6 @@
 import 'package:aiza_service/view/Screens/login_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -31,36 +32,16 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        width: double.infinity,
-        decoration: const BoxDecoration(
-          gradient: LinearGradient(
-            colors: [Colors.blue, Colors.purple],
+          width: double.infinity,
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+                colors: [Colors.blue, Colors.green],
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight),
           ),
-        ),
-        child: const Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(
-              Icons.miscellaneous_services_rounded,
-              size: 130,
-              color: Colors.white,
-            ),
-            SizedBox(
-              height: 20,
-            ),
-            Text(
-              'AIZA Techinical Services',
-              style: TextStyle(
-                fontSize: 40,
-                fontWeight: FontWeight.bold,
-                fontStyle: FontStyle.italic,
-                color: Colors.white,
-              ),
-              textAlign: TextAlign.center,
-            )
-          ],
-        ),
-      ),
+          child: Center(
+            child: Lottie.asset('assets/Lottie/Animation - 1732174757870.json'),
+          )),
     );
   }
 }
