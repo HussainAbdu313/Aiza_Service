@@ -1,3 +1,4 @@
+import 'package:aiza_service/Drawer/drawer.dart';
 import 'package:aiza_service/view/Widgets/Apartments.dart';
 import 'package:aiza_service/view/Widgets/booths.dart';
 import 'package:aiza_service/view/Widgets/coffe_shops.dart';
@@ -19,21 +20,26 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: const Drawers(),
       backgroundColor: Colors.black,
+      appBar: AppBar(
+        title: const Text(
+          'INTERIOR DESIGNS',
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 35,
+            fontWeight: FontWeight.bold,
+          ),
+          textAlign: TextAlign.center,
+        ),
+        centerTitle: true,
+        backgroundColor: Colors.black,
+        elevation: 0,
+      ),
       body: ListView(
         children: [
-          const Text(
-            'INTERIOR DESIGNS',
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 40,
-              fontWeight: FontWeight.bold,
-              fontStyle: FontStyle.italic,
-            ),
-            textAlign: TextAlign.center,
-          ),
           const SizedBox(
-            height: 40,
+            height: 30,
           ),
           CarouselSlider(
             items: [
@@ -156,7 +162,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         fit: BoxFit.cover),
                     borderRadius: BorderRadius.circular(20),
                     border: Border.all(
-                      color: Colors.white,
+                      color: Colors.black,
                       width: 6.0,
                     ),
                   ),
@@ -192,7 +198,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         fit: BoxFit.cover),
                     borderRadius: BorderRadius.circular(20),
                     border: Border.all(
-                      color: Colors.white,
+                      color: Colors.black,
                       width: 6.0,
                     ),
                   ),
@@ -228,7 +234,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         fit: BoxFit.cover),
                     borderRadius: BorderRadius.circular(20),
                     border: Border.all(
-                      color: Colors.white,
+                      color: Colors.black,
                       width: 6.0,
                     ),
                   ),
@@ -264,7 +270,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         fit: BoxFit.cover),
                     borderRadius: BorderRadius.circular(20),
                     border: Border.all(
-                      color: Colors.white,
+                      color: Colors.black,
                       width: 6.0,
                     ),
                   ),
@@ -300,7 +306,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         fit: BoxFit.cover),
                     borderRadius: BorderRadius.circular(20),
                     border: Border.all(
-                      color: Colors.white,
+                      color: Colors.black,
                       width: 6.0,
                     ),
                   ),
@@ -336,7 +342,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         fit: BoxFit.cover),
                     borderRadius: BorderRadius.circular(20),
                     border: Border.all(
-                      color: Colors.white,
+                      color: Colors.black,
                       width: 6.0,
                     ),
                   ),
@@ -372,7 +378,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         fit: BoxFit.cover),
                     borderRadius: BorderRadius.circular(20),
                     border: Border.all(
-                      color: Colors.white,
+                      color: Colors.black,
                       width: 6.0,
                     ),
                   ),
