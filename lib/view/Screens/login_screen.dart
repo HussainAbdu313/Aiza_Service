@@ -13,7 +13,7 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   void initState() {
     Future.delayed(
-      const Duration(seconds: 4),
+      const Duration(seconds: 5),
     ).then(
       (value) => Navigator.pushReplacement(
         context,
@@ -38,7 +38,7 @@ class _LoginScreenState extends State<LoginScreen> {
           Container(
             child: Center(
               child: Lottie.asset(
-                'assets/Lottie/Animation - 1732176215017.json',
+                'assets/Lottie/Animation - 1732182140781.json',
               ),
             ),
           ),

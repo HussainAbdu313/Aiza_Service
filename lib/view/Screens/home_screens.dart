@@ -162,7 +162,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         fit: BoxFit.cover),
                     borderRadius: BorderRadius.circular(20),
                     border: Border.all(
-                      color: Colors.black,
+                      color: Colors.white,
                       width: 6.0,
                     ),
                   ),
@@ -198,7 +198,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         fit: BoxFit.cover),
                     borderRadius: BorderRadius.circular(20),
                     border: Border.all(
-                      color: Colors.black,
+                      color: Colors.white,
                       width: 6.0,
                     ),
                   ),
@@ -234,7 +234,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         fit: BoxFit.cover),
                     borderRadius: BorderRadius.circular(20),
                     border: Border.all(
-                      color: Colors.black,
+                      color: Colors.white,
                       width: 6.0,
                     ),
                   ),
@@ -270,7 +270,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         fit: BoxFit.cover),
                     borderRadius: BorderRadius.circular(20),
                     border: Border.all(
-                      color: Colors.black,
+                      color: Colors.white,
                       width: 6.0,
                     ),
                   ),
@@ -306,7 +306,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         fit: BoxFit.cover),
                     borderRadius: BorderRadius.circular(20),
                     border: Border.all(
-                      color: Colors.black,
+                      color: Colors.white,
                       width: 6.0,
                     ),
                   ),
@@ -342,7 +342,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         fit: BoxFit.cover),
                     borderRadius: BorderRadius.circular(20),
                     border: Border.all(
-                      color: Colors.black,
+                      color: Colors.white,
                       width: 6.0,
                     ),
                   ),
@@ -378,7 +378,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         fit: BoxFit.cover),
                     borderRadius: BorderRadius.circular(20),
                     border: Border.all(
-                      color: Colors.black,
+                      color: Colors.white,
                       width: 6.0,
                     ),
                   ),
