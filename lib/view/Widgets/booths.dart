@@ -14,7 +14,7 @@ class Booths extends StatelessWidget {
             icon: const Icon(
               Icons.arrow_back,
               size: 30,
-              color: Colors.black,
+              color: Colors.white,
             ),
             onPressed: () {
               Navigator.of(context).push(
@@ -31,11 +31,11 @@ class Booths extends StatelessWidget {
           'Booths',
           style: TextStyle(
             fontSize: 35,
-            color: Colors.black,
+            color: Colors.white,
           ),
         ),
         centerTitle: true,
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: Colors.black,
         shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.only(
             bottomLeft: Radius.circular(15),
@@ -43,7 +43,7 @@ class Booths extends StatelessWidget {
           ),
         ),
       ),
-      backgroundColor: Colors.grey,
+      backgroundColor: Colors.black,
       body: ListView(
         children: [
           const SizedBox(
@@ -61,7 +61,7 @@ class Booths extends StatelessWidget {
                       fit: BoxFit.fill),
                   borderRadius: BorderRadius.circular(20),
                   border: Border.all(
-                    color: Colors.black,
+                    color: Colors.white,
                     width: 6.0,
                   ),
                 ),
@@ -79,7 +79,7 @@ class Booths extends StatelessWidget {
                       fit: BoxFit.fill),
                   borderRadius: BorderRadius.circular(20),
                   border: Border.all(
-                    color: Colors.black,
+                    color: Colors.white,
                     width: 6.0,
                   ),
                 ),
@@ -97,7 +97,7 @@ class Booths extends StatelessWidget {
                       fit: BoxFit.fill),
                   borderRadius: BorderRadius.circular(20),
                   border: Border.all(
-                    color: Colors.black,
+                    color: Colors.white,
                     width: 6.0,
                   ),
                 ),
@@ -115,7 +115,7 @@ class Booths extends StatelessWidget {
                       fit: BoxFit.fill),
                   borderRadius: BorderRadius.circular(20),
                   border: Border.all(
-                    color: Colors.black,
+                    color: Colors.white,
                     width: 6.0,
                   ),
                 ),
@@ -133,7 +133,7 @@ class Booths extends StatelessWidget {
                       fit: BoxFit.fill),
                   borderRadius: BorderRadius.circular(20),
                   border: Border.all(
-                    color: Colors.black,
+                    color: Colors.white,
                     width: 6.0,
                   ),
                 ),
@@ -151,7 +151,7 @@ class Booths extends StatelessWidget {
                       fit: BoxFit.fill),
                   borderRadius: BorderRadius.circular(20),
                   border: Border.all(
-                    color: Colors.black,
+                    color: Colors.white,
                     width: 6.0,
                   ),
                 ),
@@ -169,7 +169,7 @@ class Booths extends StatelessWidget {
                       fit: BoxFit.fill),
                   borderRadius: BorderRadius.circular(20),
                   border: Border.all(
-                    color: Colors.black,
+                    color: Colors.white,
                     width: 6.0,
                   ),
                 ),
