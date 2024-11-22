@@ -14,40 +14,16 @@ class Drawers extends StatelessWidget {
               'Contact',
               style: TextStyle(fontSize: 20),
             ),
+            subtitle: const Text(
+              '9895959862 , 00971508738564',
+              style: TextStyle(fontSize: 18, color: Colors.blue),
+            ),
             leading: const Icon(
               Icons.call_outlined,
               size: 30,
             ),
             onTap: () {
               print('call');
-            },
-          ),
-          const Divider(),
-          ListTile(
-            title: const Text(
-              'WhatsApp',
-              style: TextStyle(fontSize: 20),
-            ),
-            leading: const Icon(
-              Icons.message_outlined,
-              size: 30,
-            ),
-            onTap: () {
-              print('Message');
-            },
-          ),
-          const Divider(),
-          ListTile(
-            title: const Text(
-              'Share',
-              style: TextStyle(fontSize: 20),
-            ),
-            leading: const Icon(
-              Icons.share,
-              size: 30,
-            ),
-            onTap: () {
-              print('share');
             },
           ),
         ],
