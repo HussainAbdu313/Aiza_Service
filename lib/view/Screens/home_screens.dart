@@ -49,7 +49,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   color: Colors.amber,
                   image: const DecorationImage(
                       image: AssetImage('assets/Booth 01.png'),
-                      fit: BoxFit.cover),
+                      fit: BoxFit.fill),
                   borderRadius: BorderRadius.circular(35),
                   border: Border.all(
                     color: Colors.white,
@@ -63,7 +63,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   color: Colors.amber,
                   image: const DecorationImage(
                       image: AssetImage('assets/Apartment 03.jpg'),
-                      fit: BoxFit.cover),
+                      fit: BoxFit.fill),
                   borderRadius: BorderRadius.circular(35),
                   border: Border.all(
                     color: Colors.white,
